@@ -1,6 +1,6 @@
-Flask
-gunicorn
-numpy
+streamlit
 pandas
+numpy
+requests
 scikit-learn
 pickle-mixin
