@@ -1,8 +1,3 @@
-mkdir -p ~/.streamlit/
-
-echo "\
-[server]\n\
-headless = true\n\
-enableCORS = false\n\
-port = $PORT\n\
-" > ~/.streamlit/config.toml
+#!/bin/bash
+pip install --upgrade pip
+pip install -r requirements.txt
